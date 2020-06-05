@@ -1,4 +1,5 @@
 import * as ActionTypes from './ActionTypes';
+CAMPSITES_LOADING
 
 export const campsites = (state = {
     isLoading: true,
