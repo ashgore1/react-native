@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { View, FlatList } from 'react-native';
+import { View, Text, FlatList } from 'react-native';
 import { Tile } from 'react-native-elements';
 import { connect } from 'react-redux';
 import { baseUrl } from '../shared/baseUrl';
@@ -39,7 +39,8 @@ class Directory extends Component {
             return (
                 <View>
                     <Text>{this.props.campsites.errMess}</Text>
-                </View>);
+                </View>
+                );
         }
 
         return (
