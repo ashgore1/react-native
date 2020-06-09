@@ -177,7 +177,7 @@ class CampsiteInfo extends Component {
                             leftIcon={{ type: "font-awesome", name: "comment-o" }}
                             leftIconContainerStyle={{ paddingRight: 10 }}
                             onChangeText={(comment) => this.setState({ text: comment })}
-                            value={this.state.text}
+                            value={this.state.text} expo
                         />
                         <View style={{ margin: 10 }}>
                             <Button
