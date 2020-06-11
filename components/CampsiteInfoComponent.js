@@ -13,6 +13,7 @@ import { connect } from "react-redux";
 import { baseUrl } from "../shared/baseUrl";
 import { postFavorite } from "../redux/ActionCreators";
 import { postComment } from "../redux/ActionCreators";
+import * as Animatable from 'react-native-animatable';
 
 const mapStateToProps = (state) => {
     return {
